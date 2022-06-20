@@ -3,9 +3,28 @@
     font-family: Roboto, Helvetica, sans-serif;
   }
   
-  .face-snap-card {
-    width: 35%;
-    img {
-      width: 100%;
+body
+    {
+    padding: 0;
+    margin: 0;
     }
-  }
+  
+    button
+    {
+      background-color: rgb(167, 253, 86);
+            box-sizing: border-box;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 0 15px;
+            box-shadow: lightgray 3px 3px 7px;
+            margin-right: 20px;
+            outline: none;
+            font-size: 14px;
+            font-weight: 500;
+            &:active
+            {
+                transform: translate(1px, 1px);
+                box-shadow: lightgray 0 0 5px;
+            }
+        
+    }
